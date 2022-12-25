@@ -1,0 +1,40 @@
+{
+    "name": "Flying Trough Time",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-rtttl": "github:pelikhan/pxt-rtttl#v0.0.12",
+        "pxt-arcade-image-transform": "github:robo-technical-group/pxt-arcade-image-transform#v1.0.9",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "small-tilemaps": "github:riknoll/small-tilemaps#v0.0.1",
+        "block-menu": "github:riknoll/arcade-custom-menu#v0.0.1",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "pxt-countup": "github:shakao/pxt-countup#v0.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.4.41",
+        "tag": "v1.4.41",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/ed3803974f2bd6ba24ac93feedbd9b7f508e395d",
+        "target": "1.11.37",
+        "pxt": "6.12.22",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
